@@ -2,18 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation Boilerplate</title>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/foundation.min.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
+    <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Foundation Boilerplate</h1>
-    </header>
+    <div class="row">
+        <header class="small-8 small-centered columns end">
+            <h1>Foundation Boilerplate</h1>
+            <h2>Responsive framework</h2>
+        </header>
+    </div>
+
+    <div class="row">
+        <article class="medium-7 small-7 columns" >
+            <h2>Here's my Article</h2>
+            <p>Here is a longer string of text that I will be using for demonstration purposes</p>
+        </article>
+        <aside class="medium-4 medium-offset-1 small-5 columns">
+            <h4>Here is my aside</h4>
+            <p>I have entered other dummy text for my aside.</p>
+        </aside>
+    </div>
+    <div class="row">
+        <footer class="small-12 columns">
+            <p>Here is some text, and here is some gobbly gook &copy; 2014</p>
+        </footer>
+    </div>
+
     <!--Javascript Section-->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <!--Initialize Foundation-->
     <script>$(document).foundation();</script>
     <script src="js/main.js"></script>
 </body>
